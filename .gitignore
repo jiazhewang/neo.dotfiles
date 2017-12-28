@@ -2,5 +2,7 @@
 *
 # Except these files
 !.gitignore
+!dotfiles/
+dotfiles/*
 !dotfiles/.vimrc
 !README.md
