@@ -5,4 +5,5 @@
 !dotfiles/
 dotfiles/*
 !dotfiles/.vimrc
+!dotfiles/.profile
 !README.md
