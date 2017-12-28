@@ -1,2 +1,3 @@
-# neo.vimrc
-my .vimrc
+# neo dotfiles
+including
+.vimrc
