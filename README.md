@@ -1,0 +1,2 @@
+# neo.vimrc
+my .vimrc
