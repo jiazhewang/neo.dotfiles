@@ -1,4 +1,4 @@
-" Neo .virmc
+" Neo .virmc in dotfiles
 " .VIMRC
 
 set nocompatible
