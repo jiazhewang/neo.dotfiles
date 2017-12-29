@@ -4,6 +4,8 @@
 set nocompatible
 set encoding=utf-8
 
+set mouse=a
+
 " Pathogen
 
 execute pathogen#infect()
@@ -11,7 +13,7 @@ execute pathogen#infect()
 " VISUALS
 
 syntax enable
-set background=light
+set background=dark
 set t_Co=256
 "let g:solarized_termcolors=256
 colorscheme solarized
