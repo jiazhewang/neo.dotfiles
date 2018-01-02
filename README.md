@@ -3,6 +3,8 @@ including
 
 .vimrc
 
+.profile
+
 ## links
 ln -s ~/git/dotfiles/.vimrc ~/.vimrc
 
