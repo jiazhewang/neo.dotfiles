@@ -10,17 +10,17 @@ including
 
 ## links
 
-'''shell
+```shell
 ln -s ~/git/dotfiles/.vim/ ~/.vim/
-'''
+```
 
-'''shell
+```shell
 ln -s ~/git/dotfiles/.vimrc ~/.vimrc
-'''
+```
 
-'''shell
+```shell
 ln -s ~/git/dotfiles/.profile ~/.profile
-'''
+```
 
 ## submodules
 
@@ -28,12 +28,12 @@ There are submodules (vim plugins) in .vim folder.
 
 Use submodules add while adding plugins.
 
-'''shell
+```shell
 git submodules add gitRepoURL PATH
-'''
+```
 
 Should use recursively clone.
 
-'''shell
+```shell
 git clone --recursive https://github.com/jiazhewang/neo.dotfiles.git
-'''
+```
