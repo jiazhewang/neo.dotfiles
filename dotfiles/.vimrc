@@ -5,6 +5,7 @@ set nocompatible
 set encoding=utf-8
 
 set mouse=a
+set showcmd
 
 """"" Plugins """""
 
