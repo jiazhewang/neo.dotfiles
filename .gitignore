@@ -1,6 +1,5 @@
 # Ignore everything in this directory
-*
-dotfiles/**
+#*
 # Except these files
 !.gitignore
 !dotfiles/
