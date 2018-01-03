@@ -1,3 +1,18 @@
 [submodule "dotfiles/.vim/bundle/ctrlp.vim"]
 	path = dotfiles/.vim/bundle/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim.git
+[submodule "dotfiles/.vim/bundle/nerdtree"]
+	path = dotfiles/.vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "dotfiles/.vim/bundle/syntastic"]
+	path = dotfiles/.vim/bundle/syntastic
+	url = https://github.com/vim-syntastic/syntastic.git
+[submodule "dotfiles/.vim/bundle/vim-colors-solarized"]
+	path = dotfiles/.vim/bundle/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "dotfiles/.vim/bundle/vim-javascript"]
+	path = dotfiles/.vim/bundle/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
+[submodule "dotfiles/.vim/bundle/vim-latex"]
+	path = dotfiles/.vim/bundle/vim-latex
+	url = https://github.com/vim-latex/vim-latex.git
