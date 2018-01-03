@@ -1,11 +1,11 @@
 # Ignore everything in this directory
 *
-dotfiles/*
+dotfiles/**
 # Except these files
 !.gitignore
 !dotfiles/
 !dotfiles/.vimrc
 !dotfiles/.profile
 !dotfiles/.vim
-!dotfiles/.vim/*
+!dotfiles/.vim/**
 !README.md
