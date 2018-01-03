@@ -54,6 +54,12 @@ let g:ctrlp_custom_ignore = {
 let g:ctrlp_user_command = 'find %s -type f'        " MacOSX/Linux
 "let g:ctrlp_user_command = 'dir %s /-n /b /s /a-d'  " Windows
 
+" vim-markdown
+
+let g:vim_markdown_folding_level = 6
+
+""""""""""""""""""""
+
 " VISUALS
 
 syntax enable
