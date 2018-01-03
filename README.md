@@ -1,6 +1,8 @@
 # neo dotfiles
 including
 
+.vim/
+
 .vimrc
 
 .profile
