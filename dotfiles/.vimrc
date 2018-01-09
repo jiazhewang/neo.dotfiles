@@ -101,3 +101,20 @@ set tabstop=8
 set expandtab
 set shiftwidth=4
 set cindent
+
+inoremap ' ''<ESC>i
+inoremap " ""<ESC>i
+inoremap ( ()<ESC>i
+inoremap [ []<ESC>i
+inoremap { {<CR>}<ESC>O
+
+"设置跳出自动补全的括号
+func SkipPair()  
+    if getline('.')[col('.') - 1] == ')' || getline('.')[col('.') - 1] == ']' || getline('.')[col('.') - 1] == '"' || getline('.')[col('.') - 1] == "'" || getline('.')[col('.') - 1] == '}'  
+        return "\<ESC>la"  
+    else  
+        return "\t"  
+    endif  
+endfunc  
+" 将tab键绑定为跳出括号  
+inoremap <TAB> <c-r>=SkipPair()<CR>
