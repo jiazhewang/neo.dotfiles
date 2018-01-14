@@ -16,3 +16,6 @@
 [submodule "dotfiles/.vim/bundle/vim-latex"]
 	path = dotfiles/.vim/bundle/vim-latex
 	url = https://github.com/vim-latex/vim-latex.git
+[submodule "dotfiles/.vim/bundle/vim-pug"]
+	path = dotfiles/.vim/bundle/vim-pug
+	url = git://github.com/digitaltoad/vim-pug.git
