@@ -10,6 +10,8 @@ set showcmd
 """"" Plugins """""
 
 " Pathogen
+let g:pathogen_disabled = []
+call add(g:pathogen_disabled, 'YouCompleteMe')
 
 execute pathogen#infect()
 
@@ -106,7 +108,7 @@ inoremap ' ''<ESC>i
 inoremap " ""<ESC>i
 inoremap ( ()<ESC>i
 inoremap [ []<ESC>i
-inoremap { {<CR>}<ESC>O
+inoremap {<CR> {<CR>}<ESC>O
 
 "设置跳出自动补全的括号
 func SkipPair()  
