@@ -19,3 +19,6 @@
 [submodule "dotfiles/.vim/bundle/vim-pug"]
 	path = dotfiles/.vim/bundle/vim-pug
 	url = git://github.com/digitaltoad/vim-pug.git
+[submodule "dotfiles/.vim/bundle/dotfiles/.vim/bundle"]
+	path = dotfiles/.vim/bundle/dotfiles/.vim/bundle
+	url = https://github.com/Valloric/YouCompleteMe.git
