@@ -105,9 +105,13 @@ set shiftwidth=4
 set cindent
 
 inoremap ' ''<ESC>i
+inoremap '' ''
 inoremap " ""<ESC>i
+inoremap "" ""
 inoremap ( ()<ESC>i
+inoremap () ()
 inoremap [ []<ESC>i
+inoremap [] []
 inoremap {<CR> {<CR>}<ESC>O
 
 "设置跳出自动补全的括号
