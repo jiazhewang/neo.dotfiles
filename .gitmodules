@@ -28,3 +28,6 @@
 [submodule "dotfiles/.vim/bundle/vim-vue"]
 	path = dotfiles/.vim/bundle/vim-vue
 	url = https://github.com/posva/vim-vue.git
+[submodule "TabPy"]
+	path = TabPy
+	url = https://github.com/tableau/TabPy.git
