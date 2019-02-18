@@ -8,22 +8,6 @@ including
 
 .profile
 
-## links
-
-If you are loading this configuration on a new device, make sure you do the links below. They link the configurative files to the working paths.
-
-```shell
-ln -s ~/git/dotfiles/.vim/ ~/.vim/
-```
-
-```shell
-ln -s ~/git/dotfiles/.vimrc ~/.vimrc
-```
-
-```shell
-ln -s ~/git/dotfiles/.profile ~/.profile
-```
-
 ## submodules
 
 There are submodules (vim plugins) in .vim folder.
@@ -34,11 +18,41 @@ If you are adding git repos into the whole structure, you should not just clone 
 git submodule add gitRepoURL PATH
 ```
 
+For example, if you want to get Vundle for your vim, you may do this:
+
+```shell
+git submodule add https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
+
+instead of doing this:
+
+```shell
+#git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
+
 While cloning the complete configuration, make sure you clone it with **--recursive** so that the submodules would be cloned together.
 
 ```shell
 git clone --recursive https://github.com/jiazhewang/neo.dotfiles.git
 ```
+
+## links
+
+If you are loading this configuration on a new device, make sure you do the links below. They link the configurative files to the working paths.
+
+```shell
+ln -s PATH_TO/dotfiles/.vim/ ~/.vim/
+```
+
+```shell
+ln -s PATH_TO/dotfiles/.vimrc ~/.vimrc
+```
+
+```shell
+ln -s PATH_TO/dotfiles/.profile ~/.profile
+```
+
+
 
 ## plugin path
 
@@ -50,3 +64,11 @@ Since we used [pathogen.vim](https://github.com/tpope/vim-pathogen), vim plugins
 ```shell
 <neo.dotfiles>/dotfiles/.vim/bundle/
 ```
+
+## colors 
+
+If you use iTerm 2 and you want to use Solarized color:
+
+Open iTerm 2, open Preferences, click on the "Profiles" (formerly Addresses, formerly Bookmarks) icon in the preferences toolbar, then select the "colors" tab. Click on the "Color Presets" ("Load Presets" in earlier versions) menu and select "import...". Select the Solarized Light or Dark theme file.
+
+https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized
