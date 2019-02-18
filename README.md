@@ -21,13 +21,13 @@ git submodule add gitRepoURL PATH
 For example, if you want to get Vundle for your vim, you may do this:
 
 ```shell
-git submodule add https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+git submodule add https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 
 instead of doing this:
 
 ```shell
-#git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+#git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 
 While cloning the complete configuration, make sure you clone it with **--recursive** so that the submodules would be cloned together.
