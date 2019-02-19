@@ -7,16 +7,28 @@ set encoding=utf-8
 set mouse=a
 set showcmd
 
+set backspace=indent,eol,start
+
 ":sp to below
 set splitbelow
 ":vs to right
 set splitright
 "split navigations
-noremap <C-J> <C-W><C-J>
-noremap <C-K> <C-W><C-K>
-noremap <C-L> <C-W><C-L>
-noremap <C-H> <C-W><C-H>
-
+"
+"The original meaning of Ctrl-j is 'move [n] lines downward'.
+"Switch it off for remapping.
+let g:BASH_Ctrl_j = 'off'
+"VIM-LaTeX uses imaps.vim plugin, which also remaps some keys, including Ctrl-j
+"Switch it off.
+augroup vimrc
+    au!
+    au VimEnter * unmap <C-j>
+    au VimEnter * noremap <C-j> <C-w>j
+augroup END
+"nnoremap <C-J> <C-W>j
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
 
 """"" Plugins """""
 

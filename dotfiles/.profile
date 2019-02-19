@@ -1,3 +1,5 @@
+alias vim='/usr/local/bin/vim'
+
 # Prompt
 
 export TERM="xterm-color"
